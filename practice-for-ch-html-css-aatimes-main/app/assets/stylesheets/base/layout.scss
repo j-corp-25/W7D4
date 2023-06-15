@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	font-family: serif;
 	font-size: 12px;
@@ -40,6 +40,7 @@ button {
 button:hover {
 	background-color: blue;
 	border-color: darkblue;
+	color: white;
 }
 
 /*
