@@ -4,13 +4,18 @@
 display: flex;
 justify-content: space-between;
 border-bottom: 1px solid rgb(194, 190, 190);
-padding-left: 5%;
-padding-right: 5%;
+
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+
+}
+
+button {
+  background-color: rgb(33, 100, 158);
+  color: white ;
+  font-weight: bolder;
 }
 
 #sections-sidebar-btn, #search-modal-btn {
@@ -19,17 +24,19 @@ padding-right: 5%;
 .left-nav {
   > ul {
   display: flex;
-justify-content: space-between;
-    padding-left: 0%;
+  justify-content: space-between;
+  padding-left: 0%;
+
     width: 100px;
 
     > li {
-      flex: 0.2;
+      padding: 5px;
+
     }
   }
 
   span {
-    
+
   }
 }
 
@@ -42,18 +49,16 @@ justify-content: space-between;
     }
 
     > li:last-of-type {
-      
+
     }
   }
-  
+
   i {
-    
+
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
-}
 
-    
+}

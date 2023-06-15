@@ -1,12 +1,13 @@
 <header class="main-nav">
 	<nav class="left-nav">
 		<ul>
-      <li data-controller="sections-sidebar"> 
+      <li data-controller="sections-sidebar">
         <div id="sections-sidebar-btn" data-action="click->sections-sidebar#toggleSidebar">
           <i class="fa-solid fa-bars"></i>
           <span>sections</span>
         </div>
       </li>
+      
 			<li data-controller="modal">
         <div id="search-modal-btn" data-action="click->modal#toggleModal">
           <i class="fa-solid fa-magnifying-glass"></i>
@@ -14,19 +15,19 @@
         </div>
 			</li>
 		</ul>
-    
+
 	</nav>
 
   <nav class="right-nav">
 		<ul>
-      <button data-controller="sections-sidebar"> 
-        
+      <button data-controller="sections-sidebar">
+
           <span>SUBSCRIBE NOW</span>
       </button>
 			<button data-controller="modal">
           <span>LOG IN</span>
 			</button>
 		</ul>
-    
+
 	</nav>
 </header>

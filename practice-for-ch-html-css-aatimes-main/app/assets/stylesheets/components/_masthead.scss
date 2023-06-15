@@ -8,6 +8,16 @@
 	position: relative;
 }
 
+ul {
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h1 {
+	margin: 0 auto;
+}
+
 .language-nav {
 	position: absolute;
 	top: -15px;
@@ -27,6 +37,7 @@
 	}
 
 	ul {
+
 		display: flex;
 	}
 }
@@ -61,7 +72,7 @@
 	}
 
 	a,
-	button, 
+	button,
 	time {
 		margin-right: 10px;
 	}
